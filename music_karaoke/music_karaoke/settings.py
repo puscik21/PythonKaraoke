@@ -53,7 +53,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'music_karaoke.urls'
+ROOT_URLCONF = 'music_karaoke.music_karaoke.urls'
 
 TEMPLATES = [
     {
@@ -71,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'music_karaoke.wsgi.application'
+WSGI_APPLICATION = 'music_karaoke.music_karaoke.wsgi.application'
 
 
 # Database
